@@ -1,0 +1,254 @@
+body {
+    margin: auto;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #efeff1;
+    background:#18181B;
+   
+}
+
+.chat {
+    background-color: #26262c;
+    width: 340px;
+    position: absolute;
+    top: 0;
+    color: #d8d8da;
+    border-radius: 15px;
+  }
+  .chat-header {
+    width: inherit;
+    top: 0;
+    color: #d8d8da;
+    text-align: center;
+    height: 49px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: solid 3px #18181B;
+    margin-bottom: 1px;
+  }
+  .chat-header-text {
+    width: inherit;
+    position: absolute;
+    top:10px;
+  }
+  .chat-main {
+    margin-left: 7px;
+  }
+
+  .chat1 {
+    background-color: #26262c;
+    width: 340px;
+    position: absolute;
+    top: 0;
+    color: #d8d8da;
+    border-radius: 15px;
+
+  }
+  .chat1-header {
+    width: inherit;
+    top: 0;
+    color: #d8d8da;
+    text-align: center;
+    height: 49px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: solid 3px #18181B;
+    margin-bottom: 1px;
+  }
+  .chat1-header-text {
+    width: inherit;
+    position: absolute;
+    top:10px;
+  }
+  .chat1-main {
+    margin-left: 7px;
+  }
+
+  .chat2 {
+    background-color: #26262c;
+    width: 340px;
+    position: absolute;
+    top: 0;
+    color: #d8d8da;
+    border-radius: 15px;
+  }
+  .chat2-header {
+    width: inherit;
+    top: 0;
+    color: #d8d8da;
+    text-align: center;
+    height: 49px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: solid 3px #18181B;
+    margin-bottom: 1px;
+  }
+  .chat2-header-text {
+    width: inherit;
+    position: absolute;
+    top:10px;
+  }
+  .chat2-main {
+    margin-left: 7px;
+  }
+
+ .creamket{
+     color: #fdbd42
+ }
+
+ .timafrolov{
+     color:#507ef7
+ }
+
+ .trefis{
+     color:#e4766a
+ }
+
+ .currency {
+    text-align: center;
+    background: #26262c;
+    color:#edc386;
+    border-color: #3a3a3d;
+    border-style: solid;
+    border-width: 2px;   
+    width:200px;
+    height:75px;
+    position: absolute;
+    border-radius: 5px;
+    top: 5px;
+    left: 5px;
+    padding-left: 2px;
+ }
+
+ .pasta {
+    text-align: center;
+    background: #26262c;
+    color:#edc386;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px;   
+    width:200px;
+    height:75px;
+    position: absolute;
+    border-radius: 5px;
+    top: 5px;
+    right: 5px;
+    padding-left: 2px;
+ }
+
+ .menul0{
+    position: absolute;
+    background: #26262c;
+    width:190px;
+    left: 10px;
+    color: #d8d8da;
+    text-align: center;
+    height: 190px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px; 
+    border-radius: 5px;  
+ }
+
+ .menul1{
+    position: absolute;
+    background: #26262c;
+    width:190px;
+    left: 10px;
+    color: #d8d8da;
+    text-align: center;
+    height: 190px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px; 
+    border-radius: 5px;  
+ }
+
+ .menul2{
+    position: absolute;
+    background: #26262c;
+    width:190px;
+    left: 10px;
+    color: #d8d8da;
+    text-align: center;
+    height: 190px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px; 
+    border-radius: 5px;  
+ }
+ .menur0{
+    position: absolute;
+    background: #26262c;
+    width:190px;
+    right: 10px;
+    color: #d8d8da;
+    text-align: center;
+    height: 190px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px; 
+    border-radius: 5px;  
+ }
+
+ .menur1{
+    position: absolute;
+    background: #26262c;
+    width:190px;
+    right: 10px;
+    color: #d8d8da;
+    text-align: center;
+    height: 190px;
+    /* text-transform: uppercase; */
+    font-weight: 600;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px; 
+    border-radius: 5px;  
+ }
+
+ .menur2{
+    position: absolute;
+    background: #26262c;
+    width:190px;
+    right: 10px;
+    color: #d8d8da;
+    text-align: center;
+    height: 190px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-color: #3a3a3d; 
+    border-style: solid;
+    border-width: 2px; 
+    border-radius: 5px;  
+ }
+ .menu{
+     font-size: 18px;
+ }
+ .menul0-text{
+    line-height: 2;
+ }
+ .menul1-text{
+    line-height: 2;
+ }
+ .menul2-text{
+    line-height: 2;
+ }
+ .menur0-text{
+    line-height: 2;
+ }
+ .menur1-text{
+    line-height: 2;
+ }
+ .menur2-text{
+    line-height: 2;
+ }
