@@ -4,71 +4,468 @@
     <link rel="shortcut icon" href="pictures/favicon.ico" type="favicon/ico">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Kelly+Slab&display=swap" rel="stylesheet">
     <title>peepoChat</title>
-  </head>
-  <body> 
-    <div class="Stats">
-      <div class="currency">
-      <b>Your currency: <br> ZERO</b> 
-    </div>
-    <div class="pasta">
-      <b>Your pasta's amount: <br> 0 (0/0)</b> 
-    </div></div>
-    <div class="menu">
-      <div class="menul">
-        <div class="menul0">
-          <div class="menul0-text">>SHOP< <br> You can buy some useful things</div>
+  </head> 
+  <body>
+    <!-- Main content -->
+    <div class="main_content">
+      <!-- Page content -->
+      <div class="container-fluid page_content">
+        <div class="row justify-content-center">
+          <dic class="col-xl-9">
+            <div class="row no-gutters justify-content-center">
+              <dic class="col-6 col-sm-3 left">
+                <div class="row no-gutters justify-content-center left_content">
+                  <div class="col-12 col-md-9">
+                    <div class="row no-gutters justify-content-center align-items-center left_content">
+                      <dic class="col-9">
+                        <div class="currency menu_button">
+                          <div class="body_icon">
+                            <i class='fas fa-coins' style='font-size:3.2em;color:#efeff1'></i>
+                          </div>
+                          <div class="btn_text">
+                            0
+                          </div>
+                        </div>
+                      </dic>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div class="row no-gutters justify-content-center align-items-center left_content">
+                      <dic class="col-9">
+                        <div class="logs menu_button">
+                          <div class="body_icon">
+                            <i class='fas fa-chevron-right' style='font-size:3.2em;color:#efeff1'></i>
+                            <i class='fas fa-window-minimize' style='font-size:2em;color:#efeff1'></i>
+                          </div>
+                          <div class="btn_text">
+                            Logs
+                          </div>
+                        </div>
+                      </dic>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div class="row no-gutters justify-content-center align-items-center left_content">
+                      <dic class="col-9">
+                        <div class="credits menu_button">
+                          <div class="body_icon">
+                            <i class='fas fa-newspaper' style='font-size:3.2em;color:#efeff1'></i>
+                          </div>
+                          <div class="btn_text">
+                            Credits
+                          </div>
+                        </div>
+                      </dic>
+                    </div>
+                  </div>
+                </div>
+              </dic>
+              <dic class="col-auto col-sm-6">
+                <div class="row justify-content-center slider">
+                  <div class="col-12 col-lg-6 ch1 slider_item">
+                    <div class="row no-gutters justify-content-center align-items-center">
+                      <div class="col-12 col-md-9 col-lg-12">
+                        <table class="chats chat1">
+                          <thead>
+                            <tr class="chat-header">
+                              <th class="chat-header-text">
+                                <div class="header">
+                                  <span>PEEPOCHAT</span>
+                                  <div class="burger"><span></span></div>
+                                </div>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr> 
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-6 ch2 slider_item">
+                    <div class="row no-gutters justify-content-center align-items-center">
+                      <div class="col-12 col-md-9 col-lg-12">
+                        <table class="chats chat2">
+                          <thead>
+                            <tr class="chat-header">
+                              <th class="chat-header-text">
+                                <div class="header">
+                                  <span>PEEPOCHAT</span>
+                                  <div class="burger"><span></span></div>
+                                </div>
+                              </th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ipsa voluptatem aliquid, impedit alias commodi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure, odio quam? Assumenda numquam consequuntur asperiores, eaque repellendus libero architecto ducimus?
+                              </td>
+                            </tr> 
+                          </tbody>
+                        </table>
+                      </div> 
+                    </div>
+                  </div>
+                </div>
+              </dic>
+              <dic class="col-6 col-sm-3 right">
+                <div class="row no-gutters justify-content-center right_content">
+                  <div class="col-12 col-md-9">
+                    <div class="row no-gutters justify-content-center align-items-center right_content">
+                      <dic class="col-9">
+                        <div class="pasta menu_button">
+                          <div class="body_icon">
+                            <i class='fas fa-paste' style='font-size:3.2em;color:#efeff1'></i>
+                          </div>
+                          <div class="btn_text">
+                            0
+                          </div>
+                        </div>
+                      </dic>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div class="row no-gutters justify-content-center align-items-center right_content">
+                      <dic class="col-9">
+                        <div class="settings menu_button">
+                          <div class="body_icon">
+                            <i class='fas fa-cog cog1' style='font-size:3.2em;color:#efeff1'></i>
+                            <i class='fas fa-cog cog2' style='font-size:1.87em;color:#efeff1'></i>
+                          </div>
+                          <div class="btn_text">
+                            Settings
+                          </div>
+                        </div>
+                      </dic>
+                    </div>   
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <div class="row no-gutters justify-content-center align-items-center right_content">
+                      <dic class="col-9">
+                        <a href="https://github.com/peepoChat" target="_blank" class="source menu_button">
+                          <div class="body_icon">
+                            <i class='fas fa-code' style='font-size:3.2em;color:#efeff1'></i>
+                          </div>
+                          <div class="btn_text">
+                            Source code
+                          </div>
+                        </a>
+                      </dic>
+                    </div>
+                  </div>
+                </div>
+              </dic>
+            </div>
+          </dic>
         </div>
-        <div class="menul1">
-         <div class="menul1-text"> >SETTINGS<</div>
-        </div>
-        <div class="menul2">
-         <div class="menul2-text">>LOGS<</div>
-        </div>
-      </div>
-      <div>
-        <div class="menur">
-          <div class="menur0">
-            <div class="menur0-text"> >YOUR COLLECTION< <br> ACSII: 0/0 <br> RU: 0/0 <br> ENG: 0/0  <br> ALL: 0/0</div>
-          </div>
-          <div class="menur1">
-           <div class="menur1-text"> >SAVE&LOAD<</div>
-          </div>
-          <div class="menur2">
-           <div class="menur2-text">>achievements<</div>
-          </div>
-        </div>
       </div>
     </div>
-    <div class="chats">
-      <div class="chat">
-      <div class="chat-header">
-        <div class="chat-header-text">STREAM CHAT</div>
-      </div>
-      <div class="chat-main">
-        <b class="creamket">Creamket_: </b>Спиздил шаблон у Тролова и збс <IMG class="emote" SRC=pictures/peepoEZ.png ALT="peepoEZ" TITLE="peepoEZ" WIDTH="42 px" HEIGHT="30 px" ALIGN=top>
-      </div>
-    </div>
-    <div class="chat1">
-      <div class="chat1-header">
-        <div class="chat1-header-text">STREAM CHAT</div>
-      </div>
-      <div class="chat1-main">
-        <b class="timafrolov">TimaFrolov: </b>Попробуй также <a href="https://dankland.club/" target="_blank">DankLand</a>!
-      </div>
-    </div>
-    <div class="chat2">
-      <div class="chat2-header">
-        <div class="chat2-header-text">STREAM CHAT</div>
-      </div>
-      <div class="chat2-main">
-        <b class="trefis">trefis: </b>Здесь был трефис
-      </div>
-    </div> </div>
     <script src="libs/jquery-3.5.1.js"></script>
-    <script src="libs/bootstrap.js"></script>
+    <script src="libs/slick.min.js"></script>
     <script src="js/style.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
+
