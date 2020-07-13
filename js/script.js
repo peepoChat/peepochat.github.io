@@ -39,3 +39,36 @@ $('.slider').slick({
                 }
               ]
 })
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+
+const nicknameColors = ['#ff0000', '#0000ff', '#008000', '#b22222', '#ff7f50', '#9acd32', '#ff4500', '#2e8b57', '#daa520', '#d2691e', '#5f9ea0', '#1e90ff', '#ff69b4', '#8a2be2', '#00ff7f']
+
+var app = new Vue({
+  el: '#app',
+  data: {
+  ruUser: ruusers[getRandomInt(383)],
+  ruMessage: rumessages[getRandomInt(9269)],
+  ruNicknameColor: nicknameColors[getRandomInt(15)],
+  }
+})
+
+// $(document).ready(function(){
+//   $('.close').click(function(event){
+//     $('.modal').addClass('animate__slideOutDown')
+//     setTimeout(() => {
+//       $('.modal').removeClass('animate__slideOutDown')
+//     }, 100);
+//   })
+// })
+
+// $(document).ready(function(){
+//   $('.btn').click(function(event){
+//     $('.modal').addClass('animate__slideOutDown')
+//     setTimeout(() => {
+//       $('.modal').removeClass('animate__slideOutDown')
+//     }, 100);
+//   })
+// })
