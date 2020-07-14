@@ -224,6 +224,11 @@ table.chats thead {
 	margin-left: auto;
 }
 
+.modal-title{
+	font-size: 3em;
+	font-weight: 700;
+}
+
 .btn-secondary:hover{
 	background-color: #3e3f41;
 	border-color: #3e3f41;
@@ -232,6 +237,16 @@ table.chats thead {
 .btn-secondary{
 	background-color: #333436;
 	border-color: #333436;
+}
+
+.modal-header .btn-secondary{
+	background-color: #18181b;
+	border-color: #18181b;
+}
+
+.modal-header .btn-secondary:hover{
+	background-color: #3e3f41;
+	border-color: #3e3f41;
 }
 
 .modal-header,
