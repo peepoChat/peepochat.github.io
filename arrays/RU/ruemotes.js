@@ -463,4 +463,9 @@ const ru_emotes = new Map([
   [`catJAM`, `https://cdn.betterttv.net/emote/5f1b0186cf6d2144653d2970/1x`],
   [`pepoMLADY`, `https://cdn.betterttv.net/emote/5e17fcb40550d42106b91e75/1x`],
   [`AlienPls`, `https://cdn.betterttv.net/emote/5e9d8af27e090362f8b0ce95/1x`],
+  ["pwgoodGun", `https://static-cdn.jtvnw.net/emoticons/v1/303317027/1.0`],
+  ["pwgoodCheems", `https://static-cdn.jtvnw.net/emoticons/v1/303130855/1.0`],
+  ["pwgoodDerp", `https://static-cdn.jtvnw.net/emoticons/v1/302972832/1.0`],
+  ["pwgoodHey", `https://static-cdn.jtvnw.net/emoticons/v1/302529601/1.0`],
+  ["pwgoodCat", `https://static-cdn.jtvnw.net/emoticons/v1/300166768/1.0`],
 ]);
