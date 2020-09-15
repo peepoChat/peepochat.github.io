@@ -86,6 +86,9 @@ table.chats tbody{ display: inline-block;
 	height: 96vh;
 	margin-top: .9em;
 	margin-bottom: .9em;
+	width: 100%;
+	word-break: break-word;
+	/* max-width: 100%; */
 	border-radius: 2%;
 	box-shadow: 0 5px 0px #18181b;
 }
@@ -95,11 +98,16 @@ table.chats tbody {
 	padding: 5px 10px;
 	scrollbar-width: thin;
 	scrollbar-color: #26262b #26262b;
-    height: 90vh;
+	height: 85vh;
+	/* font-size: .85em; */
     overflow-y: auto;
-    text-indent: 2vh;
+    text-indent: 1vh;
     overflow-x: hidden;
 	border-top: 2px solid #222225;
+}
+
+table.chats tbody.without-btn{
+	height: 90vh;
 }
 
 table.chats thead {
@@ -127,6 +135,26 @@ table.chats thead {
 
 /* Buttons */
 
+.start{
+	margin-right: 4%;
+	margin-left: 4%;
+	margin-bottom: 2%;
+	width: 92%;
+	font-weight: 700;
+	
+}
+
+.cstm-btn{
+	background-color: #9147ff;
+	color: #efeff1;
+}
+
+.cstm-btn:hover{
+	background-color: #772ce8;
+	color: #efeff1;
+}
+
+
 .menu_button{
 	cursor: pointer;
 	position: relative;
@@ -145,7 +173,7 @@ table.chats thead {
 	border-radius: 25%;
 	top: 0px;
 	box-shadow: 0 5px 0px #18181b;
-	transition-duration: 0.5s;
+	transition-duration: 0.3s;
 }
 
 .btn_text{
@@ -229,7 +257,7 @@ table.chats thead {
 	font-weight: 700;
 }
 
-.btn-secondary:hover{
+/* .btn-secondary:hover{
 	background-color: #3e3f41;
 	border-color: #3e3f41;
 }
@@ -237,7 +265,7 @@ table.chats thead {
 .btn-secondary{
 	background-color: #333436;
 	border-color: #333436;
-}
+} */
 
 .modal-header .btn-secondary{
 	background-color: #18181b;
@@ -256,7 +284,7 @@ table.chats thead {
 
 .alert-dark{
 	color: #efeff1;
-	background-color: #6c757d;
+	background-color: #1f1f23;
 	border-color: #333436;
 }
 
@@ -307,11 +335,11 @@ table.chats thead {
   }
   
   input:checked + .slider-toggle {
-	background-color: #333436;
+	background-color: #9147ff;
   }
   
   input:focus + .slider-toggle {
-	box-shadow: 0 0 1px #333436;
+	box-shadow: 0 0 1px #9147ff;
   }
   
   input:checked + .slider-toggle:before {
@@ -403,6 +431,10 @@ table.chats thead {
 	/* .ch2{
 		display: none;
 	} */
+}
+
+.hide{
+	display: none;
 }
 
 @media (max-width:740px){
