@@ -31,15 +31,15 @@ const nicknameColors = ['#ff0000', '#3172ff', '#00dd0e', '#b22222', '#ff7f50', '
 const getRuMessage = function(n){
   const a = getRandomInt(n)
   if (a < 5){
-    const message = rupastas[getRandomInt(93)]
+    const message = rupastas[getRandomInt(rupastas.length)]
     return message
   }
   else if(a === 6){
-    const message = ascii[getRandomInt(54)]
+    const message = ascii[getRandomInt(ascii.length)]
     return message
   }
   else{
-    const message = rumessages[getRandomInt(9269)]
+    const message = rumessages[getRandomInt(rumessages.length)]
     return message
   }
   console.log(message)
@@ -49,15 +49,15 @@ const getRuMessage = function(n){
 const getEnMessage = function(n){
   const a = getRandomInt(n)
   if (a < 5){
-    const message = enpastas[getRandomInt(287)]
+    const message = enpastas[getRandomInt(enpastas.length)]
     return message
   }
   else if(a === 6){
-    const message = ascii[getRandomInt(54)]
+    const message = ascii[getRandomInt(ascii.length)]
     return message
   }
   else{
-    const message = enmessages[getRandomInt(5620)]
+    const message = enmessages[getRandomInt(enmessages.length)]
     return message
   }
   console.log(message)
@@ -70,7 +70,7 @@ function createRuMessage(){
   message.insertAdjacentHTML('afterbegin', `                                                                 
                             <tr>
                               <td>
-                                <b style="color:${nicknameColors[getRandomInt(15)]}"> ${ruusers[getRandomInt(383)]}</b>: ${ascii[getRandomInt(54)]}
+                                <div class="message"><b style="color:${nicknameColors[getRandomInt(15)]}"> ${ruusers[getRandomInt(383)]}</b>: ${stringPasring(getRuMessage(100), ru_emotes)}</div>
                               </td>
                             </tr>
   `)
@@ -130,3 +130,10 @@ $(document).ready(function(){
   })
 })
 
+function stringPasring(string, map) {
+  for (let key of map.keys()) {
+    let parsed = new RegExp(key, "g");
+    string = string.replace(parsed, map.get(key));
+  }
+  return string;
+}
