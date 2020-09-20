@@ -97,14 +97,15 @@ table.chats tbody {
 	text-align: left;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	font-size: 11px;
+	font-size: 12px;
 	scrollbar-width: thin;
 	scrollbar-color: #26262b #26262b;
 	height: 85vh;
 	/* line-height: 15px; */
 	/* font-size: .85em; */
     overflow-y: auto;
-    text-indent: 5px;
+	text-indent: 5px;
+	/* min-width: 320px; */
     overflow-x: hidden;
 	border-top: 2px solid #222225;
 }
@@ -385,6 +386,9 @@ table.chats thead {
 
 .slider{
 	min-width: 0;
+	max-width: 50%;
+	position: relative;
+    transform: translate(50%)
 }
 .slider_item{
 	min-width: 0;
@@ -398,6 +402,8 @@ table.chats thead {
 .slick-slide{
 	max-width: 50%;
 }
+
+
 /* <------------------------------------> */
 
 
@@ -415,9 +421,14 @@ table.chats thead {
 	}
 }
 
-@media (max-width:992px){
+@media (max-width:1040px){
 	.slick-slide{
 		max-width: 50%;
+	}
+	.slider{
+		transform: translate(0);
+		min-width: 0;
+		max-width: unset;
 	}
 }
 
