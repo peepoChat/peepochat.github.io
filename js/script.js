@@ -2,22 +2,22 @@ $(document).ready(function(){
     $('.burger').click(function(event){
         $('.burger,.right,.left').toggleClass('active')
         $('body').toggleClass('lock')
-        // const draggable = $('.slider').slick('slickGetOption', 'draggable')
-        // if (draggable == true){
-        //   $('.slider').slick('slickSetOption', 'draggable', false)
-        //   delete draggable
-        // } else {
-        //   $('.slider').slick('slickSetOption', 'draggable', true)
-        //   delete draggable
-        // }
-        // const swipe = $('.slider').slick('slickGetOption', 'swipe')
-        // if (swipe == true){
-        //   $('.slider').slick('slickSetOption', 'swipe', false)
-        //   delete swipe
-        // } else {
-        //   $('.slider').slick('slickSetOption', 'swipe', true)
-        //   delete swipe
-        // }
+        const draggable = $('.slider').slick('slickGetOption', 'draggable')
+        if (draggable == true){
+          $('.slider').slick('slickSetOption', 'draggable', false)
+          delete draggable
+        } else {
+          $('.slider').slick('slickSetOption', 'draggable', true)
+          delete draggable
+        }
+        const swipe = $('.slider').slick('slickGetOption', 'swipe')
+        if (swipe == true){
+          $('.slider').slick('slickSetOption', 'swipe', false)
+          delete swipe
+        } else {
+          $('.slider').slick('slickSetOption', 'swipe', true)
+          delete swipe
+        }
     })
 })
 
@@ -70,7 +70,7 @@ function createRuMessage(){
   message.insertAdjacentHTML('afterbegin', `                                                                 
                             <tr>
                               <td>
-                                <div class="message"><b style="color:${nicknameColors[getRandomInt(15)]}"> ${ruusers[getRandomInt(383)]}</b>: ${stringPasring(getRuMessage(100), ru_emotes)}</div>
+                                <div class="message"><b style="color:${nicknameColors[getRandomInt(15)]}"> ${ruusers[getRandomInt(383)]}</b>: ${stringPasring(getEnMessage(100), en_emotes)}</div>
                               </td>
                             </tr>
   `)
@@ -109,25 +109,17 @@ $(document).ready(function(){
 })
 
 $(document).ready(function(){
-  $('.chat-switcher').click(function(event){
     $('.ch2').toggleClass('hide')
     $('.slider').slick({
       arrows: false,
       adapativeHeight: true,
-      mobileFirst: true,
+      // variableWidth: true,
       infinite: false,
       touchMove: false,
       touchTreshold: 3,
       slidesPerRow: 1,
       slidesToShow: 1,
-      responsive: [
-          {
-            breakpoint: 992,
-            settings: "unslick"
-          }
-        ]
     })
-  })
 })
 
 function stringPasring(string, map) {
