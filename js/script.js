@@ -84,7 +84,7 @@ function createEnMessage(){
   message.insertAdjacentHTML('afterbegin', `                                                                 
                             <tr>
                               <td>
-                                <b style="color:${nicknameColors[getRandomInt(15)]}"> ${enusers[getRandomInt(383)]}</b>: ${getEnMessage(100)}
+                                <div class="message"><b style="color:${nicknameColors[getRandomInt(15)]}"> ${enusers[getRandomInt(383)]}</b>: ${stringPasring(getEnMessage(100), en_emotes)}</div>
                               </td>
                             </tr>
   `)
