@@ -70,7 +70,7 @@ function createRuMessage(){
   message.insertAdjacentHTML('afterbegin', `                                                                 
                             <tr>
                               <td>
-                                <div class="message"><b style="color:${nicknameColors[getRandomInt(15)]}"> ${ruusers[getRandomInt(383)]}</b>: ${stringPasring(getEnMessage(100), en_emotes)}</div>
+                                <div class="message"><b style="color:${nicknameColors[getRandomInt(15)]}"> ${ruusers[getRandomInt(383)]}</b>: ${stringPasring(getRuMessage(100), ru_emotes)}</div>
                               </td>
                             </tr>
   `)
