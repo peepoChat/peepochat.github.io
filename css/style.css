@@ -43,7 +43,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /* width */
 ::-webkit-scrollbar{
-	width: 10px;
+	width: 0px;
 }
    
 /* Handle */
@@ -133,6 +133,11 @@ table.chats thead {
 .chat2 tbody:hover {
 	/* scrollbar-width: thin; */
 	scrollbar-color: #18181b #26262b;
+}
+
+.trigger{
+	background-color: #eac236;
+	cursor: pointer;
 }
 
 .message{
