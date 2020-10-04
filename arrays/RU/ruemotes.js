@@ -880,7 +880,7 @@ const ru_emotes = new Map([
     `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/425618/1.0 align="middle" hspace="5">`,
   ],
   [
-    ` D:ы `,
+    ` D: `,
     `<IMG class="emote" SRC=https://cdn.betterttv.net/emote/55028cd2135896936880fdd7/1x align="middle" hspace="5">`,
   ],
   [
