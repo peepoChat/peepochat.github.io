@@ -667,4 +667,8 @@ const en_emotes = new Map([
     ` cmonBruh `,
     `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/84608/1.0 align="middle" hspace="5">`,
   ],
+  [
+    ` :\\) `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/1/1.0 align="middle" hspace="5">`,
+  ],
 ]);

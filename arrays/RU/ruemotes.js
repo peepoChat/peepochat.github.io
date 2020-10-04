@@ -880,7 +880,7 @@ const ru_emotes = new Map([
     `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/425618/1.0 align="middle" hspace="5">`,
   ],
   [
-    ` D: `,
+    ` D:ы `,
     `<IMG class="emote" SRC=https://cdn.betterttv.net/emote/55028cd2135896936880fdd7/1x align="middle" hspace="5">`,
   ],
   [
@@ -954,5 +954,9 @@ const ru_emotes = new Map([
   [
     ` VisLaud `,
     `<IMG class="emote" SRC=https://cdn.betterttv.net/emote/550352766f86a5b26c281ba2/1x align="middle" hspace="5">`,
+  ],
+  [
+    ` :\\) `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/1/1.0 align="middle" hspace="5">`,
   ],
 ]);
