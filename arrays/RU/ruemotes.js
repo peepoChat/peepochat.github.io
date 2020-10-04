@@ -951,4 +951,8 @@ const ru_emotes = new Map([
     ` cmonBruh `,
     `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/84608/1.0 align="middle" hspace="5">`,
   ],
+  [
+    ` VisLaud `,
+    `<IMG class="emote" SRC=https://cdn.betterttv.net/emote/550352766f86a5b26c281ba2/1x align="middle" hspace="5">`,
+  ],
 ]);
