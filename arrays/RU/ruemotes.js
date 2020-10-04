@@ -859,4 +859,96 @@ const ru_emotes = new Map([
     "pwgoodCat",
     `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/300166768/1.0 align="middle" hspace="5">`,
   ],
+  [
+    ` <3 `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/555555584/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` Kappa `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/25/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` Jebaited `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/114836/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` PogChamp `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/88/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` LUL `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/425618/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` :) `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/1/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` Keepo `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/1902/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` SeemsGood `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/64138/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` CoolStoryBob `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/123171/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` SMOrc `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/52/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` BibleThump `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/86/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` WutFace `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/28087/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` DansGame `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/33/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` 4Head `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/354/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` NotLikeThis `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/58765/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` ResidentSleeper `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/245/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` FailFish `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/360/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` Kreygasm `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/41/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` HeyGuys `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/30259/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` TriHard `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/120232/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` KappaPride `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/55338/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` BabyRage `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/22639/1.0 align="middle" hspace="5">`,
+  ],
+  [
+    ` cmonBruh `,
+    `<IMG class="emote" SRC=https://static-cdn.jtvnw.net/emoticons/v1/84608/1.0 align="middle" hspace="5">`,
+  ],
 ]);
